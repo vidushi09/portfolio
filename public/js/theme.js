@@ -25,18 +25,19 @@ function changeTheme() {
 
   window.getComputedStyle(css).opacity
   document.head.removeChild(css)
-  localStorage.theme = theme
+  // localStorage.theme = theme
 }
 
 function preloadTheme() {
   const theme = (() => {
-    const userTheme = localStorage.theme
+    // const userTheme = localStorage.theme
 
-    if (userTheme === "light" || userTheme === "dark") {
-      return userTheme
-    } else {
-      return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
-    }
+    // if (userTheme === "light" || userTheme === "dark") {
+    //   return userTheme
+    // } else {
+      // return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
+    //}
+    return "dark"
   })()
 
   const element = document.documentElement
@@ -47,7 +48,7 @@ function preloadTheme() {
     element.classList.remove("dark")
   }
 
-  localStorage.theme = theme
+  // localStorage.theme = theme
 }
 
 window.onload = () => {
