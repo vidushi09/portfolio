@@ -58,19 +58,19 @@ export const LINKS: Links = [
 // Socials
 export const SOCIALS: Socials = [
   { 
-    NAME: "Email",
+    NAME: "✉️ E-mail",
     ICON: "email", 
     TEXT: "vidushi949@gmail.com",
     HREF: "mailto:vidushi949@gmail.com",
   },
   { 
-    NAME: "Github",
+    NAME: "🐙 Github",
     ICON: "github",
     TEXT: "Vidushi Sharma",
     HREF: "https://github.com/vidushi09"
   },
   { 
-    NAME: "LinkedIn",
+    NAME: "🔗 LinkedIn",
     ICON: "linkedin",
     TEXT: "Vidushi Sharma",
     HREF: "https://www.linkedin.com/in/vidushi-sharma9/",
