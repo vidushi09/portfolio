@@ -71,11 +71,11 @@ export const SOCIALS: Socials = [
     TEXT: "Vidushi Sharma",
     HREF: "https://www.linkedin.com/in/vidushi-sharma9/",
   },
-  { 
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "Vidushi Sharma",
-    HREF: "",
-  },
+  // { 
+  //   NAME: "Twitter",
+  //   ICON: "twitter-x",
+  //   TEXT: "Vidushi Sharma",
+  //   HREF: "",
+  // },
 ]
 
